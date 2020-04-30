@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "my_vpc" {
-  source = "https://github.com/Ninad949/new_terraform/"
+  source = "https://github.com/Ninad949/new_terraform/modules"
   
     vpc_cidr = "10.0.0.0/16"
 
